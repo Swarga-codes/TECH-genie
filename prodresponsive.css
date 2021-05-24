@@ -435,5 +435,8 @@ text-align: center;
   .copyright p{
     text-align: left;
   }
+      .col-4{
+          font-size:20px;
+      }
 }
  
