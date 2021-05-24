@@ -1,5 +1,7 @@
 @media screen and (max-width: 991px){
-
+.col-4{
+    font-size:20px;
+    }
     .nav{
     height: 19.2rem;    
   }
