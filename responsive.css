@@ -129,7 +129,7 @@
     /* Footer */
     .footer{
       text-align: center;
-      font-size: 22px;
+      font-size: 30px;
     }
    .row{
     
@@ -157,7 +157,7 @@
     }
     .copyright img{
         position: absolute;
-    padding: 10px 151px;
+        padding: 10px 210px;
 
     }
     
