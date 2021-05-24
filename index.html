@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techgenie</title>
+  <link rel="icon" href="images/fevicon icon.png" type="image/svg+xml">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <script type="text/javascript"
+    src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8CFBBS2Q1hPjvnQx-nMiloWfVbV4dmMhcwXdKph0ttJEwid0z0jJWhCA-B-dbev3EMKwZaQHLOAApXwldcVqc9dfUhkMEv8I0ANqIQoYQyUIVaW-n98_z14i4k0ZfJQ2qJ_dLgmtTSR0WtKadgWpKQ"
+   charset="UTF-8"></script> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet"  href="responsive.css">
+</head>
+
+<body>
+  <header>
+    <div class="hea">
+    <div class="container">
+      <nav class="nav">
+        <div id="logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+           <a href="#newrelease" class="nav-link">New Releases</a>
+          </li>
+         
+           <li class="nav-item">
+           <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" > PRODUCTS </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#Headphones">Headphones</a>
+              <a href="#Laptops">Laptops</a>
+              <a href="#Neckbands">Neckbands</a>
+              <a href="#Televisions">Televisions</a>
+              <a href="#Smartphones">Smartphones</a>
+              <a href="#Accessories">Accessories</a>
+            </div>
+          </div> 
+        </li>
+        <li class="nav-item">
+          <a href="login page/login.html" target="_blank" class="nav-link">Login/ Sign Up</a>
+        </li>
+
+          <li class="nav-item">
+          <a href="#seller" class="nav-link">Selling on</a>
+    
+      </li>
+          
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+
+        <input type="text" placeholder="Whatcha looking for?">
+
+        <div class="icon">
+          <span>&#9906;</span>
+        </div>
+
+        <div class="cart">
+          <i class="fas fa-shopping-cart" style="color: gray; cursor: pointer;"></i>
+        </div>
+    </div>
+    </nav>
+ 
+  <section id="home">
+      <div class="contain">
+        
+        <!--image slider start-->
+        <div class="slider">
+          <div class="slides">
+        
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="images/mackbook slider1copy.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="https://www.alifstores.com/media/wysiwyg/PS5-Web-Banner-1020x471px-V1.1.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="https://switch.com.my/wp-content/uploads/2021/01/ipad-for-everyone-banner-ENG-4-2048x615.jpg" alt=""> 
+            </div>
+            <div class="slide">
+              <img src="images/slider1 img.jpg" alt="">
+            </div>
+            <!--slide images end-->
+
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+ </div>
+</section>
+
+<!-- Newrelease section -->
+<section id="newrelease">
+      <div class="newrelease">
+        <h1>New Releases</h1>
+        <div class="box1">
+          <img src="images/rog 5.PNG" alt="">
+          <button class="btn1"><a href="https://rog.asus.com/event/ROG-Phone-5/" target="_blank"> Check This Out!</a></button>
+        </div>
+        <div class="box2">
+          <img src="images/Laptop gaming.PNG" alt="">
+          <button class="btn2"><a href="https://store.hp.com/in-en/default/laptops-tablets/personal-laptops/pavilion-laptops.html" target="_blank"> Check This Out!</a></button>
+        </div>
+        <div class="box3">
+          <img src="images/hyperx.PNG" alt="">
+          <button class="btn3"><a href="https://www.hyperxgaming.com/us/headsets/cloud-revolver-gaming-headset" target="_blank">Check This Out >></a> </button>
+        </div>
+    </section>
+
+    <!-- Product section -->
+    <section id="products">
+      <div class="small-container">
+*        <div class="heading">
+        <h1>Products</h1>
+      </div>
+      </section>
+
+      <section id="Headphones">
+      <div class="head1" >
+        <h1>Headphones</h1>
+      </div>
+        <div class="row1">
+          <div class="col-4">
+            <a href="boult audio black truebuds.html" target="_blank"><img src="images/earpods3.jpg" alt=""></a>
+            <a href="boult audio black truebuds.html" target="_blank"><h2>Boult Audio Black TrueBuds</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹1,800</h2>
+          </div>
+          <div class="col-4">
+            <a href="boat rockerz 400.html" target="_blank"><img src="images/headphones6.jpg" alt=""></a>
+            <a href="boat rockerz 400.html" target="_blank"><h2>boAt Rockerz 400(Yellow)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹1499.00</h2>
+          </div>
+          <div class="col-4" id="beats">
+            <a href="beats teal to pink headset.html" target="_blank"><img src="images/headphones.jpg" style="padding: 0px 26px; margin: -16px 7px;" alt=""></a>
+            <a href="beats teal to pink headset.html" target="_blank"><h2>Beats Wireless Headphones</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹17999.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="kotion g9000 gaming.html" target="_blank"><img src="images/headphones1.jpg" alt=""></a>
+            <a href="kotion g9000 gaming.html" target="_blank"><h2>Kotion G9000 Gaming Headphone</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹1899.00</h2>>
+          </div>
+        </div>
+      </section>
+
+      <section id="Laptops">
+        <div class="head2">
+          <h1>Laptops</h1>
+        </div>
+        <div class="row2">
+          <div class="col-4" id="MSI">
+            <a href="MSI Laptop.html" target="_blank"><img src="images/laptop5.jpg" style=" margin: -21px 24px;" alt=""></a>
+            <a href="MSI Laptop.html" target="_blank"><h2>MSI GL62MVR 7RFX(Intel-i7-</h2></a>
+            <a href="MSI Laptop.html" target="_blank"><h2>7700HQ/16GB/1TB/</h2></a>
+            <a href="MSI Laptop.html" target="_blank"><h2>256SSD/GTX1060)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹68,499.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Alienware M15.html" target="_blank"><img src="images/Alienware 2.png" alt=""></a>
+            <a href="Alienware M15.html" target="_blank"><h2>ALIENWARE M15 GAMING LAPTOP</h2></a>
+            <a href="Alienware M15.html" target="_blank"><h2>( Intel® Core™ i7-10750H/RTX™</h2></a>
+            <a href="Alienware M15.html" target="_blank"><h2>2070/16GB/1TB)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹2,65,999.00</h2>
+          </div>
+          <div class="col-4" id="Acer">
+            <a href="Acer Predator.html" target="_blank"><img src="images/laptop8.jpg" style="margin: 4px 25px;" alt=""></a>
+            <a href="Acer Predator.html" target="_blank"><h2>Acer Predator Triton(144Hz/</h2></a>
+            <a href="Acer Predator.html" target="_blank"><h2>8GB RAM/512GB SSD/Win10/</h2></a>
+            <a href="Acer Predator.html" target="_blank"><h2>GTX 1650Ti Graphics/19.9mm)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹86,599.00</h2>
+          </div>
+          <div class="col-4" id="Asus">
+            <a href="Asus Tuf.html" target="_blank"><img src="images/tuf.png" alt=""></a>
+            <a href="Asus Tuf.html" target="_blank"><h2>Asus TUF FX AU092T</h2></a>
+            <a href="Asus Tuf.html" target="_blank"><h2>(AMD Ryzen 5 3550H/8GB/512GB/</h2></a>
+            <a href="Asus Tuf.html" target="_blank"><h2>4GB GTX 1650 Graphics)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹56,999.00</h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="Neckbands">
+        <div class="head3">
+          <h1>Neckbands</h1>
+        </div>
+        <div class="row3">
+          <div class="col-4">
+            <a href="JBL LIVE 220BT.html" target="_blank"><img src="images/neckband1.jpg" style="margin: 4px 0px;" alt=""></a>
+            <a href="JBL LIVE 220BT.html" target="_blank"><h2>JBL LIVE 220BT (Black)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹4499.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Sony SBH70 Stereo.html" target="_blank"><img src="images/neckband6.jpg" style="margin: 30px 25px;" alt=""></a>
+            <a href="Sony SBH70 Stereo.html" target="_blank"><h2>Sony SBH70 Stereo(Blue)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹2999.00</h2>
+          </div>
+          <div class="col-4">
+           <a href="Sony WI-C400N.html" target="_blank"> <img src="images/neckband4.jpg" style="margin: -19px 32px;" alt=""></a>
+           <a href="Sony WI-C400N.html" target="_blank"><h2>Sony WI-C400N(Black)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹3999.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="JAM Tune In IPX4.html" target="_blank"><img src="images/neckband5.jpg" style="margin: 3px 27px;" alt=""></a>
+            <a href="JAM Tune In IPX4.html" target="_blank"><h2>JAM Tune In IPX4 (Blue)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹2499.00</h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="Televisions">
+        <div class="head4">
+          <h1>Televisions</h1>
+        </div>
+        <div class="row4">
+          <div class="col-4">
+         <a href="One plus TV.html" target="_blank"><img src="images/tv9.jpg" style="margin: -8px 0px;" alt=""></a>
+            <a href="One plus TV.html" target="_blank"><h2>OnePlus 138.8 cm (55 inches) </h2></a>
+            <a href="One plus TV.html" target="_blank"><h2>Q1 Series 4K</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹84,899.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Samsung TV.html" target="_blank"><img src="images/tv2.jpg" alt=""></a>
+            <a href="Samsung TV.html" target="_blank"><h2>Samsung UN78JS8600 78-Inch</h2></a>
+            <a href="Samsung TV.html" target="_blank"><h2>4K Ultra HD</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹74,999.00</h2>
+          </div>
+          <div class="col-4">
+           <a href="Sony TV.html" target="_blank"><img src="images/tv3.jpg" style="margin: -6px 25px;" alt=""></a>
+            <a href="Sony TV.html" target="_blank"><h2>Sony X950H 85-inch TV</h2></a>
+            <a href="Sony TV.html" target="_blank"><h2>4K Ultra HD</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹1,99,999.00</h2>
+          </div>
+          <div class="col-4">
+           <a href="Samsung TV 2 .html" target="_blank"> <img src="images/tv4.jpg" style="margin: -37px 25px;" alt=""></a>
+            <a href="Samsung TV 2 .html" target="_blank"><h2>Samsung 138 cm (55 inch) Ultra HD</h2></a>
+           <a href="Samsung TV 2 .html" target="_blank"> <h2>Ultra HD (4K) 55TU8000</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹67,990.00</h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="Smartphones">
+        <div class="head5">
+          <h1>Smartphones</h1>
+        </div>
+        <div class="row5">
+          <div class="col-4">
+            <a href="Samsung s20.html" target="_blank"><img src="images/mobile1.jpg" style="height: 188px; width: 117px;" alt=""></a>
+            <a href="Samsung s20.html" target="_blank"><h2>Samsung Galaxy Note20 Ultra</h2></a>
+            <a href="Samsung s20.html" target="_blank"><h2>(256 GB/12 GB RAM /Mystic</h2></a>
+              <a href="Samsung s20.html" target="_blank"><h2> Bronze/Smartphone)</h2></a>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹104,999.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="One plus nord.html" target="_blank"><img src="images/mobile2.jpg" style="height: 188px; width: 119px;" alt=""></a>
+            <a href="One plus nord.html" target="_blank"><h2>OnePlus Nord 5G</h2></a>
+            <a href="One plus nord.html" target="_blank"><h2>(Blue Marble, 12GB RAM,</h2></a>
+            <a href="One plus nord.html" target="_blank"><h2>256GB Storage)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹ 29,999.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Mi 10.html" target="_blank"><img src="images/mobile3.jpg" style="height: 188px; width: 112px;" alt=""></a>
+            <a href="Mi 10.html" target="_blank"><h2>Mi 10 (Coral Green,8GB RAM,</h2></a>
+            <a href="Mi 10.html" target="_blank"><h2>128GB Storage) - 108MP Quad</h2></a>
+            <a href="Mi 10.html" target="_blank"><h2>Camera, SD 865 Processor</h2></a>
+             <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹55,999.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Iphone 11 pro max.html" target="_blank"><img src="images/mobile4.jpg" style="height: 188px; width: 166px;" alt=""></a>
+            <a href="Iphone 11 pro max.html" target="_blank"><h2>Apple iPhone 11 Pro Max</h2></a>
+            <a href="Iphone 11 pro max.html" target="_blank"><h2>64 GB, Space Grey(Includes</h2></a>
+            <a href="Iphone 11 pro max.html" target="_blank"><h2>Earpods and Adapter)</h2></a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹ 90,900.00</h2>
+          </div>
+        </div>
+    </section>
+
+    <section id="Accessories">
+        <div class="head6">
+          <h1>Accessories</h1>
+        </div>
+        <div class="row6">
+          <div class="col-4">
+            <a href="Sony 2000mAh Power Bank.html" target="_blank"><img src="images/powerbank.PNG" style="height: 188px; width: 117px;" alt=""></a>
+            <a href="Sony 2000mAh Power Bank.html" target="_blank"><h2>Sony 20000 mAh Power</h2></a>
+            <a href="Sony 2000mAh Power Bank.html" target="_blank">  <h2>Bank, CP-V20</h2></a>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹5,519.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Reconnect Marvel Avengers Wall Charger.html" target="_blank"><img src="images/charger.PNG" style="height: 188px; width: 170px;" alt=""></a>
+            <a href="Reconnect Marvel Avengers Wall Charger.html" target="_blank"><h2>Reconnect Marvel Avengers</h2></a>
+            <a href="Reconnect Marvel Avengers Wall Charger.html" target="_blank"><h2>QC 3.0 20 Watts Wall Charger</h2></a>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹799.00</h2>
+          </div>
+          <div class="col-4">
+           <a href="Seagate Backup Plus Portable Hard Drive.html" target="_blank"> <img src="images/hdd.PNG" style="height: 188px; width: 117px;" alt=""></a>
+           <a href="Seagate Backup Plus Portable Hard Drive.html" target="_blank"> <h2>Seagate Backup Plus Portable</h2></a>
+            <a href="Seagate Backup Plus Portable Hard Drive.html" target="_blank">  <h2>5 TB External Hard Drive HDD </h2></a>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h2>₹9,299.00</h2>
+          </div>
+          <div class="col-4">
+            <a href="Amazon Echo.html" target="_blank"><img src="images/alexa.PNG" style="height: 181px; width: 117px;" alt=""></a>
+            <a href="Amazon Echo.html" target="_blank"><h2>All-new Amazon Echo (3rd Gen)</h2></a>
+            <a href="Amazon Echo.html" target="_blank"><h2>-Powered by Dolby</h2></a>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h2>₹6,999.00</h2>
+          </div>
+          </div>
+      </section>
+    </div>
+    </header>
+    
+  <!-- footer -->
+  <section id="contact">
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone.</p>
+          <img src="images/play-store.png" alt="">
+          <img src="images/app-store.png" alt="">
+        </div>
+       
+        <div class="footer-col-2">
+          <div class="footerlogo">
+          <img src="images/logo.png" alt="">
+        </div>
+          <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <p style="margin-bottom: 0px;">Copyright &#169; 2021||Techgenie by Ritika Saxena & Swargaraj Dutta</p>
+        <img src="images/payopt.PNG">
+      </div>
+
+    </div>
+      
+    </div>
+</section>
+   
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
