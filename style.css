@@ -12,7 +12,7 @@
 
 html{
   font-family: var(--body-font);
-  font-size: 10px;
+  font-size: 20px;
   color: var(--body-font-color); 
   scroll-behavior: smooth;
 }
